@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HomePage } from '../../pages/home/home';
 import { TabsPage } from '../../pages/tabs/tabs';
+import { TutorialPage } from '../tutorial/tutorial';
 
 @IonicPage()
 @Component({
@@ -18,7 +19,7 @@ export class LoginPage {
   }
 
   login(){
-    this.navCtrl.push(TabsPage);
+    this.navCtrl.push(TutorialPage);
   }
 
 }

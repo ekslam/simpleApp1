@@ -1,15 +1,33 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { TabsPage } from '../../pages/tabs/tabs';
 
+
+/**
+ * Generated class for the TutorialPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+
+@IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-tutorial',
+  templateUrl: 'tutorial.html',
 })
-export class HomePage {
+export class TutorialPage {
 
-  constructor(public navCtrl: NavController) {
-
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+
+  pushTabs(){
+    this.navCtrl.push(TabsPage);
+  }
+
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad TutorialPage');
+  }
+
   slides = [
     {
       title: "Welcome to the Beadle System!",
