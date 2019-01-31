@@ -9,7 +9,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content class = "tutorial-page" padding>
     
   <ion-slides pager>
     <ion-slide *ngFor="let slide of slides">
@@ -18,7 +18,7 @@
           <button ion-button color="primary">Skip</button>
         </ion-buttons>
       </ion-toolbar>
-      <img src="assets/img/AdDU_logo.png" class="slide-image"/>
+      <img [src]="slide.image" class="slide-image"/>
       <h2 class="slide-title" [innerHTML]="slide.title"></h2>
       <p [innerHTML]="slide.description"></p>
     </ion-slide>
