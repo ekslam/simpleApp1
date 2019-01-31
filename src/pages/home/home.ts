@@ -14,7 +14,7 @@ export class HomePage {
     {
       title: "Welcome to the Docs!",
       description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
-      image: "assets/img/AdDU_logo.png",
+      image: "assets/image/bubble.png",
     },
     {
       title: "What is Ionic?",
