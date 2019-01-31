@@ -1,5 +1,18 @@
 // http://ionicframework.com/docs/theming/
+ion-menu{
 
+    .toolbar-title.toolbar-title-md, .tiilbar-title.toolbar-title-ios, .toolbar-title.toolbar-title.wp {
+        color: map-get($colors,light);
+    }
+
+    .toolbar-background{
+     background-color:#5477c2 !important;
+    }
+   }
+
+    .menu-icon {
+        color:mape-get($colors,light);
+    }
 
 // App Global Sass
 // --------------------------------------------------

@@ -3,9 +3,13 @@
     <ion-title>
       About
     </ion-title>
+    <button ion-button class="action-sheets-basic-page" menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-
+<ion-content padding class = "action-sheets-basic-page">
+    <button ion-button block (click)="openMenu()">Navigation Bar</button>
+    
 </ion-content>
