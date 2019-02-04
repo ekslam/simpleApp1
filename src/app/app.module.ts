@@ -14,6 +14,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { TutorialPage } from '../pages/tutorial/tutorial';
+import { RegisterPage } from '../pages/register/register';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TutorialPage } from '../pages/tutorial/tutorial';
     HomePage,
     LoginPage,
     TabsPage,
-    TutorialPage
+    TutorialPage,
+    RegisterPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { TutorialPage } from '../pages/tutorial/tutorial';
     HomePage,
     LoginPage,
     TabsPage,
-    TutorialPage
+    TutorialPage,
+    RegisterPage
   ],
   providers: [
     StatusBar,

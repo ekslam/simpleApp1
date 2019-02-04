@@ -30,19 +30,19 @@ export class TutorialPage {
 
   slides = [
     {
-      title: "Welcome to the Beadle System!",
-      description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
-      image: "assets/image/bubble.png",
+      title: "Welcome to the Beadle App!",
+      description: "The <b>Beadle App</b> showcases a number of useful functions for the both the teacher and the students.",
+      image: "assets/image/test.png",
     },
     {
-      title: "What is Ionic?",
-      description: "<b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.",
-      image: "assets/img/ica-slidebox-img-2.png",
+      title: "What is the Beadle App?",
+      description: "<b>Beadle App</b> is a mobile application that was developed to help the beadles in the university to record attendance efficiently and accurately, with safety measures.",
+      image: "assets/image/calendar.png",
     },
     {
-      title: "What is Ionic Cloud?",
-      description: "The <b>Ionic Cloud</b> is a cloud platform for managing and scaling Ionic apps with integrated services like push notifications, native builds, user auth, and live updating.",
-      image: "assets/img/ica-slidebox-img-3.png",
+      title: "What to Expect in the App",
+      description: "The <b>Beadle App</b> has open functionalities for the beadles to use. Attendance system is provided for beadle to help them utilize the mobile app itself.",
+      image: "assets/image/global.png",
     }
   ];
 

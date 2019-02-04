@@ -1,0 +1,23 @@
+page-register {
+    
+    .toolbar-title.toolbar-title-md, .toolbar-title.toolbar-title-ios, .toolbar-title.toolbar-title.wp {
+        color: map-get($colors,light);
+     }
+     .toolbar-background {
+         background-color:#3b5998;
+     }
+
+     img{
+        width: 120px;
+        margin: auto;
+        display: block;
+      }
+
+      .cent {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 18px;
+        
+      }
+}

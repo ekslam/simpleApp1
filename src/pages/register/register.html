@@ -1,0 +1,48 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Register</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <br/><br/>
+    <img src = "assets/image/AdDU_logo.png" alt="logo">
+    <ion-label class ="cent"><b>BEADLE SYSTEM</b></ion-label>
+    <ion-list>
+
+        <ion-list>
+            
+            <ion-item>
+              <ion-label>ID Type</ion-label>
+              <ion-select [(ngModel)]="idType">
+                <ion-option value="student">Student</ion-option>
+                <ion-option value="teacher">Teacher</ion-option>
+                <ion-option value="prefect">Prefect</ion-option>
+              </ion-select>
+            </ion-item>
+          </ion-list>
+
+
+        <ion-item>
+          <ion-label floating>ID Number</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>Username</ion-label>
+          <ion-input type = "text"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      
+    </ion-list>
+    <button ion-button round block outline>Create Account</button>
+    
+
+</ion-content>
