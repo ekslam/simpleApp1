@@ -9,34 +9,81 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content text-center class="vertical-align-content">
+
+    <ion-card class = "card-background-page">
+        <img class = "cardImage" src="assets/image/BlueBackgroundVector.jpg"/>
+        <div class="card-title">Name</div>
+        <div class="card-subtitle">Course</div>
+      </ion-card>
+
 
     <ion-grid>
-        <ion-row justify-content-center>
-          
-          <ion-col col-2>
-              <button ion-button outline round block icon-only>
-                  <ion-icon name="home"></ion-icon>
+        <ion-row>
+          <ion-col>
+              <button style = "margin:auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
+                  <ion-icon class = "icn" name="home"></ion-icon>
+                    <div class = "textIcon">
+                      Home
+                    </div>
               </button>
               
           </ion-col>   
 
-          <ion-col col-2>
-              <button ion-button outline round block icon-only>
-                  <ion-icon name="help-circle"></ion-icon>
+          <ion-col>
+              <button style = "margin:auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
+                  <ion-icon class = "icn" name="help-circle"></ion-icon>
+                  <div class = "textIcon">
+                    Help
+                  </div>
               </button>
           </ion-col>
 
-          <ion-col col-2>
-            <button ion-button outline round block icon-only>
-              <ion-icon name="mail"></ion-icon>
+          <ion-col>
+            <button style = "margin:auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
+              <ion-icon class = "icn" name="mail"></ion-icon>
+                <div class = "textIcon">
+                  Mail
+                </div>
             </button>
           </ion-col>
               
         </ion-row>
 
+        <ion-row>
+            <ion-col>
+                <button style="margin: auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
+                    <ion-icon class = "icn" name="calendar"></ion-icon>
+                      <div class = "textIcon">
+                        Calendar
+                      </div>
+                </button>
+                
+            </ion-col>   
+  
+            <ion-col>
+                <button style="margin: auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
+                    <ion-icon class = "icn" name="folder-open"></ion-icon>
+                    <div class = "textIcon">
+                      Folder
+                    </div>
+                </button>
+            </ion-col>
+  
+            <ion-col>
+              <button style="margin: auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
+                <ion-icon class = "icn" name="settings"></ion-icon>
+                  <div class = "textIcon">
+                    Settings
+                  </div>
+              </button>
+            </ion-col>
+                
+          </ion-row>
+
       </ion-grid>
 
+      
       
 
 

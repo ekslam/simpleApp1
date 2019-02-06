@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 @Component({
   selector: 'page-contact',
@@ -7,8 +8,18 @@ import { NavController } from 'ionic-angular';
 })
 export class ContactPage {
 
-  constructor(public navCtrl: NavController) {
+  items = [
+    'English Class',
+    'Chinese Class'
+];
 
+itemSelected(item: string) {
+  //console.log("Selected item", item);
+  this.navCtrl.push(HomePage);
+}
+
+  constructor(public navCtrl: NavController) {
+    
   }
 
 }

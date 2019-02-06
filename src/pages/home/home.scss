@@ -15,5 +15,70 @@ page-home {
       align-items: center;
       
     }
-}
 
+    .text-on-bottom > .button-inner {
+        flex-direction: column;
+      }
+
+    .icn {
+        zoom: 1.3;
+        color: black;
+        
+    }
+    
+    .btn {
+        height: 100px;
+        width: 100px;
+    }
+
+    .textIcon {
+        font-size: 15px;
+        padding-top: 20px;
+        color: rgb(151, 148, 148);
+    }
+    
+
+    .vertical-align-content > *
+    {
+        width: 100%;
+        height: 100%;
+        //overflow: auto;
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+    }
+
+    .cardImage {
+        background-size: cover;
+        background-position: center;
+        height: 70vw;
+    }
+
+    .card-background-page {
+
+        //ion-card {
+        //  position: relative;
+        //  text-align: center;
+        //}
+      
+        .card-title {
+          position: absolute;
+          top: 10%;
+          font-size: 20px;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+        }
+      
+        .card-subtitle {
+          font-size: 1.0em;
+          position: absolute;
+          top: 15%;
+          width: 100%;
+          color: #fff;
+      }
+
+      
+    }
+
+}
