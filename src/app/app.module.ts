@@ -10,7 +10,7 @@ import { LoginPage} from '../pages/login/login';
 
 import { TabsPage } from '../pages/tabs/tabs';
 
-
+import { Calendar, CalendarOptions } from '@ionic-native/calendar';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { TutorialPage } from '../pages/tutorial/tutorial';
@@ -45,7 +45,8 @@ import { RegisterPage } from '../pages/register/register';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    Calendar,
   ]
 })
 export class AppModule {}
