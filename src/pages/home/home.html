@@ -58,36 +58,28 @@
     </ion-list>
 </div>
 
-
+<br/>
     <ion-grid>
         <ion-row>
           <ion-col>
-              <button style = "margin:auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
-                  <ion-icon class = "icn" name="home"></ion-icon>
+              <button (click)="goToProfile()" style = "margin:auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
+                  <ion-icon class = "icn" name="ios-person"></ion-icon>
                     <div class = "textIcon">
-                      Home
+                      Profile
                     </div>
               </button>
               
           </ion-col>   
 
           <ion-col>
-              <button style = "margin:auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
-                  <ion-icon class = "icn" name="help-circle"></ion-icon>
+              <button (click)="goToClassList()" style = "margin:auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
+                  <ion-icon class = "icn" name="md-contacts"></ion-icon>
                   <div class = "textIcon">
-                    Help
+                    Class
                   </div>
               </button>
           </ion-col>
 
-          <ion-col>
-            <button style = "margin:auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
-              <ion-icon class = "icn" name="mail"></ion-icon>
-                <div class = "textIcon">
-                  Mail
-                </div>
-            </button>
-          </ion-col>
               
         </ion-row>
 
@@ -109,15 +101,6 @@
                       Folder
                     </div>
                 </button>
-            </ion-col>
-  
-            <ion-col>
-              <button style="margin: auto;" class = "text-on-bottom btn" ion-button block clear round large icon-only>
-                <ion-icon class = "icn" name="settings"></ion-icon>
-                  <div class = "textIcon">
-                    Settings
-                  </div>
-              </button>
             </ion-col>
                 
           </ion-row>

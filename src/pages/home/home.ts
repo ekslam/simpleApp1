@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { Calendar } from '@ionic-native/calendar'
+import { ProfilePage } from '../profile/profile';
+import { ClassListPage } from '../class-list/class-list';
 
 @Component({
   selector: 'page-home',
@@ -150,6 +152,15 @@ export class HomePage {
       ]
     });
     alert.present();
+}
+
+
+goToProfile() {
+  this.navCtrl.push(ProfilePage);
+}
+
+goToClassList() {
+  this.navCtrl.push(ClassListPage);
 }
 
   constructor(public navCtrl: NavController, private calendar: Calendar, private alertCtrl: AlertController) {
